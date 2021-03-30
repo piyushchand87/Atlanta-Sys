@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="5dp">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:cardBackgroundColor="#E6E6E6"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="8dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="3"
+            android:padding="5dp">
+            <!--************************************************************************-->
+            <LinearLayout
+                android:id="@+id/LL_1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:layout_weight="0.75"
+                android:weightSum="2">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.75"
+                    android:text="Name :"
+                    android:layout_gravity="right|center"/>
+                <TextView
+                    android:id="@+id/TV_Name"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.25"
+                    android:text="Leanne Graham Bret"
+                    android:textStyle="bold"
+                    android:layout_gravity="right|center"/>
+            </LinearLayout>     <!--NAME-->
+            <!--************************************************************************-->
+            <LinearLayout
+                android:id="@+id/LL_2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:layout_weight="0.75"
+                android:weightSum="2">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.75"
+                    android:text="Email :"
+                    android:layout_gravity="right|center"/>
+                <TextView
+                    android:id="@+id/TV_Email"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.25"
+                    android:text="Sincere@april.biz"
+                    android:textStyle="bold"
+                    android:layout_gravity="right|center"/>
+            </LinearLayout>     <!--Email-->
+            <!--************************************************************************-->
+            <LinearLayout
+                android:id="@+id/LL_3"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:layout_weight="1.50"
+                android:weightSum="2"
+                android:visibility="gone">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.75"
+                    android:text="Address :"
+                    android:layout_gravity="right|center"/>
+                <TextView
+                    android:id="@+id/TV_Address"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.25"
+                    android:text="Kulas Light, Apt. 556, Gwenborough, Gwenborough, 92998-3874"
+                    android:textStyle="bold"
+                    android:layout_gravity="right|center"/>
+            </LinearLayout>     <!--Address-->
+            <!--************************************************************************-->
+            <LinearLayout
+                android:id="@+id/LL_4"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:weightSum="2"
+                android:visibility="gone">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.75"
+                    android:text="Geo :"
+                    android:layout_gravity="right|center"/>
+                <TextView
+                    android:id="@+id/TV_Geo"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.25"
+                    android:text="Latitude : -37.3159 \nLongitude :- 81.1496"
+                    android:textStyle="bold"
+                    android:layout_gravity="right|center"/>
+            </LinearLayout>     <!--Geo-->
+            <!--************************************************************************-->
+            <LinearLayout
+                android:id="@+id/LL_5"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:layout_weight="0.75"
+                android:weightSum="2">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.75"
+                    android:text="Phone :"
+                    android:layout_gravity="right|center"/>
+                <TextView
+                    android:id="@+id/TV_Phone"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.25"
+                    android:text="1-770-736-8031 x56442"
+                    android:textStyle="bold"
+                    android:layout_gravity="right|center"/>
+            </LinearLayout>     <!--Phone-->
+            <!--************************************************************************-->
+            <LinearLayout
+                android:id="@+id/LL_6"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:layout_weight="0.75"
+                android:weightSum="2">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.75"
+                    android:text="Website :"
+                    android:layout_gravity="right|center"/>
+                <TextView
+                    android:id="@+id/TV_Website"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.25"
+                    android:text="hildegard.org"
+                    android:textStyle="bold"
+                    android:layout_gravity="right|center"/>
+            </LinearLayout>     <!--Website-->
+            <!--************************************************************************-->
+            <LinearLayout
+                android:id="@+id/LL_7"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:layout_weight="1.50"
+                android:weightSum="2"
+                android:visibility="gone">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.75"
+                    android:text="Company :"
+                    android:layout_gravity="right|center"/>
+                
+                <TextView
+                    android:id="@+id/TV_Company"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center"
+                    android:layout_weight="1.25"
+                    android:text="Romaguera-Crona \nMulti-layered client-server neural-net\nharness real-time e-markets"
+                    android:textStyle="bold" />
+            </LinearLayout>     <!--Company-->
+            <!--************************************************************************-->
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>
